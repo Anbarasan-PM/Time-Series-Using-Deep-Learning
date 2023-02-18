@@ -1,3 +1,6 @@
+# <div align="center">Time series forecasting using Deep Learning</div>
+<div align="center"><img src="https://github.com/Anbarasan-PM/Time-series-forecasting-using-Deep-Learning/blob/main/output/overview.gif?raw=true"></div>
+
 ## Overview:
 Deep learning methods offer a lot of promise for time series forecasting, such as the automatic learning of temporal dependence and the automatic handling of temporal structures like trends and seasonality.
 
