@@ -1,23 +1,3 @@
-<div align="center">
-  
-[1]: https://github.com/Pradnya1208
-[2]: https://www.linkedin.com/in/pradnya-patil-b049161ba/
-[3]: https://public.tableau.com/app/profile/pradnya.patil3254#!/
-[4]: https://twitter.com/Pradnya1208
-
-
-[![github](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c292abd3f9cc647a7edc0061193f1523e9c05e1f/icons/git.svg)][1]
-[![linkedin](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/9f5c4a255972275ced549ea6e34ef35019166944/icons/iconmonstr-linkedin-5.svg)][2]
-[![tableau](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/e257c5d6cf02f13072429935b0828525c601414f/icons/icons8-tableau-software%20(1).svg)][3]
-[![twitter](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c9f9c5dc4e24eff0143b3056708d24650cbccdde/icons/iconmonstr-twitter-5.svg)][4]
-
-</div>
-
-# <div align="center">Time series forecasting using Deep Learning</div>
-<div align="center"><img src="https://github.com/Pradnya1208/Time-series-forecasting-using-Deep-Learning/blob/main/output/overview.gif?raw=true"></div>
-
-
-
 ## Overview:
 Deep learning methods offer a lot of promise for time series forecasting, such as the automatic learning of temporal dependence and the automatic handling of temporal structures like trends and seasonality.
 
@@ -39,19 +19,6 @@ Deep learning methods offer a lot of promise for time series forecasting, such a
 - **store** - Store ID
 - **sales** - Number of items sold at a particular store on a particular date.
 
-#### Time period of dataset:
-```
-Min date from train set: 2013-01-01
-Max date from train set: 2017-12-31
-```
-
-## Implementation:
-
-**Libraries:**  `NumPy` `pandas` `tensorflow` `matplotlib` `sklearn` `seaborn`
-## Data Exploration:
-<img src="https://github.com/Pradnya1208/Time-series-forecasting-using-Deep-Learning/blob/main/output/overall%20daily%20sales.PNG?raw=true">
-<img src="https://github.com/Pradnya1208/Time-series-forecasting-using-Deep-Learning/blob/main/output/item%20daily%20sales.PNG?raw=true">
-<img src ="https://github.com/Pradnya1208/Time-series-forecasting-using-Deep-Learning/blob/main/output/store%20sales.PNG?raw=true">
 
 ## Model training, evaluation, and prediction:
 ### Multilayer Perceptron:
@@ -70,57 +37,5 @@ Max date from train set: 2017-12-31
 
 - The benefit of this model is that the model can support very long input sequences that can be read as blocks or subsequences by the CNN model, then pieced together by the LSTM model.
 
-### Comapring Models:
-<img src ="https://github.com/Pradnya1208/Time-series-forecasting-using-Deep-Learning/blob/main/output/compare%20models.PNG?raw=true">
-<br>
-
-| Model             | Train RMSE             | Validation RMSE                                                                |
-| ----------------- | -----------------| ------------------------------------------------------------------ |
-| MLP | 18.36|  18.50 |
-| CNN | 18.62|  18.76 |
-| LSTM | 19.98|  18.76 |
-| CNN-LSTM| 19.20 |  19.17 |
-### Lessons Learned
-`Time Series Forecasting`
-`Deep Learning for Time Series Forecasting`
-`LSTM`
 
 
-
-
-
-
-
-
-## References:
-[Deep Learning for Time Series Forecasting](https://machinelearningmastery.com/how-to-get-started-with-deep-learning-for-time-series-forecasting-7-day-mini-course/)
-### Feedback
-
-If you have any feedback, please reach out at pradnyapatil671@gmail.com
-
-
-### 🚀 About Me
-#### Hi, I'm Pradnya! 👋
-I am an AI Enthusiast and  Data science & ML practitioner
-
-
-
-
-
-
-
-
-
-
-
-
-[1]: https://github.com/Pradnya1208
-[2]: https://www.linkedin.com/in/pradnya-patil-b049161ba/
-[3]: https://public.tableau.com/app/profile/pradnya.patil3254#!/
-[4]: https://twitter.com/Pradnya1208
-
-
-[![github](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c292abd3f9cc647a7edc0061193f1523e9c05e1f/icons/git.svg)][1]
-[![linkedin](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/9f5c4a255972275ced549ea6e34ef35019166944/icons/iconmonstr-linkedin-5.svg)][2]
-[![tableau](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/e257c5d6cf02f13072429935b0828525c601414f/icons/icons8-tableau-software%20(1).svg)][3]
-[![twitter](https://raw.githubusercontent.com/Pradnya1208/Telecom-Customer-Churn-prediction/c9f9c5dc4e24eff0143b3056708d24650cbccdde/icons/iconmonstr-twitter-5.svg)][4]
